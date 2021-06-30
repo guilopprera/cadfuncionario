@@ -1,0 +1,273 @@
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Core\Services\NotificationService.cs
+FN:18,System.Void CadFuncionario.Core.Services.NotificationService::Add(CadFuncionario.Core.DomainObjects.NotificationMessage)
+FNDA:0,System.Void CadFuncionario.Core.Services.NotificationService::Add(CadFuncionario.Core.DomainObjects.NotificationMessage)
+DA:19,0
+FN:20,System.Void CadFuncionario.Core.Services.NotificationService::Add(FluentValidation.Results.ValidationFailure)
+FNDA:0,System.Void CadFuncionario.Core.Services.NotificationService::Add(FluentValidation.Results.ValidationFailure)
+DA:21,0
+FN:22,System.Collections.Generic.List`1<CadFuncionario.Core.DomainObjects.NotificationMessage> CadFuncionario.Core.Services.NotificationService::GetMessages()
+FNDA:0,System.Collections.Generic.List`1<CadFuncionario.Core.DomainObjects.NotificationMessage> CadFuncionario.Core.Services.NotificationService::GetMessages()
+DA:23,0
+FN:24,System.Collections.Generic.List`1<FluentValidation.Results.ValidationFailure> CadFuncionario.Core.Services.NotificationService::GetValidationFailures()
+FNDA:0,System.Collections.Generic.List`1<FluentValidation.Results.ValidationFailure> CadFuncionario.Core.Services.NotificationService::GetValidationFailures()
+DA:25,0
+FN:28,System.Void CadFuncionario.Core.Services.NotificationService::Clear()
+FNDA:0,System.Void CadFuncionario.Core.Services.NotificationService::Clear()
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+FN:12,System.Void CadFuncionario.Core.Services.NotificationService::.ctor()
+FNDA:0,System.Void CadFuncionario.Core.Services.NotificationService::.ctor()
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+LF:12
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Core\DomainObjects\NotificationMessage.cs
+FN:9,System.String CadFuncionario.Core.DomainObjects.NotificationMessage::get_Message()
+FNDA:0,System.String CadFuncionario.Core.DomainObjects.NotificationMessage::get_Message()
+DA:10,0
+FN:4,System.Void CadFuncionario.Core.DomainObjects.NotificationMessage::.ctor(System.String)
+FNDA:0,System.Void CadFuncionario.Core.DomainObjects.NotificationMessage::.ctor(System.String)
+DA:5,0
+DA:6,0
+DA:7,0
+DA:8,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Domain\Entities\Funcionario.cs
+FN:20,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_FuncionarioId()
+FNDA:3,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_FuncionarioId()
+DA:21,3
+FN:21,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_StepProfissaoId()
+FNDA:6,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_StepProfissaoId()
+DA:22,6
+FN:22,System.String CadFuncionario.Domain.Entities.Funcionario::get_Cpf()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Cpf()
+DA:23,6
+FN:23,System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()
+DA:24,6
+FN:24,System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()
+DA:25,6
+FN:25,System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()
+DA:26,6
+FN:26,System.Nullable`1<System.DateTime> CadFuncionario.Domain.Entities.Funcionario::get_DataNascimento()
+FNDA:3,System.Nullable`1<System.DateTime> CadFuncionario.Domain.Entities.Funcionario::get_DataNascimento()
+DA:27,3
+FN:28,CadFuncionario.Domain.Entities.StepProfissao CadFuncionario.Domain.Entities.Funcionario::get_StepProfissao()
+FNDA:0,CadFuncionario.Domain.Entities.StepProfissao CadFuncionario.Domain.Entities.Funcionario::get_StepProfissao()
+DA:29,0
+FN:31,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarStep(System.Guid)
+FNDA:0,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarStep(System.Guid)
+DA:32,0
+DA:33,0
+DA:34,0
+FN:36,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarDataNascimento(System.Nullable`1<System.DateTime>)
+FNDA:0,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarDataNascimento(System.Nullable`1<System.DateTime>)
+DA:37,0
+DA:38,0
+DA:39,0
+FN:41,System.String CadFuncionario.Domain.Entities.Funcionario::ObterMensagemAniversario()
+FNDA:0,System.String CadFuncionario.Domain.Entities.Funcionario::ObterMensagemAniversario()
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+BRDA:43,20,0,0
+BRDA:43,20,1,0
+BRDA:47,65,0,0
+BRDA:47,65,1,0
+BRDA:47,97,0,0
+BRDA:47,97,1,0
+FN:7,System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)
+FNDA:3,System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)
+DA:8,3
+DA:9,3
+DA:10,3
+DA:11,3
+DA:12,3
+DA:13,3
+DA:14,3
+DA:15,3
+DA:16,3
+DA:17,3
+DA:18,3
+DA:19,3
+BRDA:10,20,0,2
+BRDA:10,20,1,1
+LF:35
+LH:19
+BRF:8
+BRH:2
+FNF:12
+FNH:8
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Domain\Entities\Profissao.cs
+FN:18,System.Guid CadFuncionario.Domain.Entities.Profissao::get_ProfissaoId()
+FNDA:5,System.Guid CadFuncionario.Domain.Entities.Profissao::get_ProfissaoId()
+DA:19,5
+FN:19,System.String CadFuncionario.Domain.Entities.Profissao::get_Descricao()
+FNDA:10,System.String CadFuncionario.Domain.Entities.Profissao::get_Descricao()
+DA:20,10
+FN:22,System.Decimal CadFuncionario.Domain.Entities.Profissao::get_SalarioBase()
+FNDA:10,System.Decimal CadFuncionario.Domain.Entities.Profissao::get_SalarioBase()
+DA:23,10
+FN:24,System.Collections.Generic.ICollection`1<CadFuncionario.Domain.Entities.StepProfissao> CadFuncionario.Domain.Entities.Profissao::get_StepProfissoes()
+FNDA:7,System.Collections.Generic.ICollection`1<CadFuncionario.Domain.Entities.StepProfissao> CadFuncionario.Domain.Entities.Profissao::get_StepProfissoes()
+DA:25,7
+FN:27,System.Void CadFuncionario.Domain.Entities.Profissao::AlterarSalarioBase(System.Decimal)
+FNDA:0,System.Void CadFuncionario.Domain.Entities.Profissao::AlterarSalarioBase(System.Decimal)
+DA:28,0
+DA:29,0
+DA:30,0
+FN:32,System.Void CadFuncionario.Domain.Entities.Profissao::AlterarDescricao(System.String)
+FNDA:0,System.Void CadFuncionario.Domain.Entities.Profissao::AlterarDescricao(System.String)
+DA:33,0
+DA:34,0
+DA:35,0
+FN:9,System.Void CadFuncionario.Domain.Entities.Profissao::.ctor(System.Guid,System.String,System.Decimal)
+FNDA:5,System.Void CadFuncionario.Domain.Entities.Profissao::.ctor(System.Guid,System.String,System.Decimal)
+DA:10,5
+DA:11,5
+DA:12,5
+DA:13,5
+DA:14,5
+DA:15,5
+DA:16,5
+DA:17,5
+BRDA:12,20,0,0
+BRDA:12,20,1,5
+LF:18
+LH:12
+BRF:2
+BRH:1
+FNF:7
+FNH:5
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Domain\Entities\StepProfissao.cs
+FN:17,System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_StepProfissaoId()
+FNDA:4,System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_StepProfissaoId()
+DA:18,4
+FN:18,System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_ProfissaoId()
+FNDA:8,System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_ProfissaoId()
+DA:19,8
+FN:19,System.Decimal CadFuncionario.Domain.Entities.StepProfissao::get_PercentualAumento()
+FNDA:8,System.Decimal CadFuncionario.Domain.Entities.StepProfissao::get_PercentualAumento()
+DA:20,8
+FN:21,CadFuncionario.Domain.Entities.Profissao CadFuncionario.Domain.Entities.StepProfissao::get_Profissao()
+FNDA:0,CadFuncionario.Domain.Entities.Profissao CadFuncionario.Domain.Entities.StepProfissao::get_Profissao()
+DA:22,0
+FN:22,System.Collections.Generic.ICollection`1<CadFuncionario.Domain.Entities.Funcionario> CadFuncionario.Domain.Entities.StepProfissao::get_Funcionarios()
+FNDA:0,System.Collections.Generic.ICollection`1<CadFuncionario.Domain.Entities.Funcionario> CadFuncionario.Domain.Entities.StepProfissao::get_Funcionarios()
+DA:23,0
+FN:26,System.Void CadFuncionario.Domain.Entities.StepProfissao::AlterarPercentualAumento(System.Decimal)
+FNDA:0,System.Void CadFuncionario.Domain.Entities.StepProfissao::AlterarPercentualAumento(System.Decimal)
+DA:27,0
+DA:28,0
+DA:29,0
+FN:8,System.Void CadFuncionario.Domain.Entities.StepProfissao::.ctor(System.Guid,System.Guid,System.Decimal)
+FNDA:4,System.Void CadFuncionario.Domain.Entities.StepProfissao::.ctor(System.Guid,System.Guid,System.Decimal)
+DA:9,4
+DA:10,4
+DA:11,4
+DA:12,4
+DA:13,4
+DA:14,4
+DA:15,4
+DA:16,4
+BRDA:11,20,0,0
+BRDA:11,20,1,4
+LF:16
+LH:11
+BRF:2
+BRH:1
+FNF:7
+FNH:4
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Validations\FuncionarioValidation.cs
+FN:7,System.Void CadFuncionario.Validations.FuncionarioValidation::.ctor()
+FNDA:3,System.Void CadFuncionario.Validations.FuncionarioValidation::.ctor()
+DA:8,3
+DA:9,3
+DA:10,3
+DA:11,3
+DA:13,3
+DA:14,3
+DA:15,3
+DA:17,3
+DA:18,3
+DA:19,3
+DA:21,3
+DA:22,3
+DA:23,3
+DA:25,3
+DA:26,3
+DA:27,3
+DA:28,3
+LF:17
+LH:17
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Validations\ProfissaoValidation.cs
+FN:7,System.Void CadFuncionario.Validations.ProfissaoValidation::.ctor(System.Boolean)
+FNDA:5,System.Void CadFuncionario.Validations.ProfissaoValidation::.ctor(System.Boolean)
+DA:8,5
+DA:9,5
+DA:10,5
+DA:11,5
+DA:12,5
+DA:14,5
+DA:15,5
+DA:17,5
+DA:18,5
+DA:19,5
+DA:20,5
+BRDA:17,189,0,5
+BRDA:17,189,1,5
+LF:11
+LH:11
+BRF:2
+BRH:2
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Projetos\Curso\CursoTestesAutomatizados\CadFuncionario\src\CadFuncionario.Validations\StepProfissaoValidation.cs
+FN:7,System.Void CadFuncionario.Validations.StepProfissaoValidation::.ctor()
+FNDA:7,System.Void CadFuncionario.Validations.StepProfissaoValidation::.ctor()
+DA:8,7
+DA:9,7
+DA:10,7
+DA:11,7
+DA:13,7
+DA:14,7
+DA:15,7
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
